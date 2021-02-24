@@ -1,0 +1,76 @@
+<!-- 
+### Exercise 1
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Positioning Content | Blog Page Exercise</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+    </head>
+        <body>
+            <!-- Header -->
+            <header class="header">
+                <div class="container">
+                    <a class="brand" href="https://www.nike.com/in/" target="_blank">
+                        <img src="assets/media/Nike-Logo-1978.jpg" alt="Nike logo">
+                    </a>
+                    <div class="links">
+                        <nav>
+                            <a class="header-links" href="https://www.nike.com/in/men" target="_blank">Men</a> 
+                            <a class="header-links" href="https://www.nike.com/in/women" target="_blank">Women</a>       
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- Main Content -->
+            <main>
+                <section class="hero">
+                    <article class="article">
+                        <div class="first-column">
+                            <img src="assets/media/SP15_JD_ALLSTAR_KAWHILEONARD_ACTION_PRIMARY_hd_1600.jpg" alt="Nike Image">
+                        </div>
+                        <div class="second-column">
+                            <h1>Bring The Future To Light</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veritatis sint perspiciatis quo nulla beatae animi consequatur. 
+                                Harum aperiam aspernatur neque eius dolore dolorum est, illo laborum illum, 
+                                et iste incidunt!
+                                Diam ut venenatis tellus in metus vulputate eu. Purus ut faucibus pulvinar elementum integer enim. 
+                                Aliquet sagittis id consectetur purus ut faucibus pulvinar. Nisi est sit amet facilisis magna etiam 
+                                tempor orci. Lobortis mattis aliquam faucibus purus in massa. Neque aliquam vestibulum morbi blandit. 
+                                In nisl nisi scelerisque eu ultrices vitae auctor eu augue. 
+                            </p>
+                            <p>
+                                Mattis nunc sed blandit libero volutpat sed. Diam ut venenatis tellus in metus vulputate eu. Ornare aenean euismod 
+                                elementum nisi quis eleifend quam adipiscing vitae. Diam ut venenatis tellus in metus vulputate eu.Harum aperiam 
+                                aspernatur neque eius dolore dolorum est, illo laborum illum, et iste incidunt! Veritatis sint perspiciatis quo nulla. Id donec ultrices tincidunt arcu non sodales. 
+                                Aliquam nulla facilisi cras fermentum!
+                            </p>
+                            <a href="https://www.nike.com/in/w/sale-3yaep" target="_blank">Buy Now!</a>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="copyright">
+                        <small>&copy;Nike, Inc.</small>
+                    </div>
+                    <div class="links">
+                        <nav>
+                            <a class="footer-links" href="https://twitter.com/Nike" target="_blank">Twitter</a> 
+                            <a class="footer-links" href="https://www.facebook.com/nike/" target="_blank">Facebook</a>       
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+        </body>
+</html>
