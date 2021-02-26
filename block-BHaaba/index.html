@@ -1,0 +1,85 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Positioning Content | Blog Page 2</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="clearfix">
+            <div class="container">
+                <a class="brand" href="https://www.nike.com/in/" target="_blank"><img src="assets/media/nike.jpg" alt="Nike logo"></a>
+                <nav class="links">
+                    <a href="https://www.nike.com/in/men" target="_blank">Men</a>
+                    <a href="https://www.nike.com/in/women" target="_blank">Women</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main>
+            <section class="clearfix">
+                <div class="hero">
+                    <article>
+                        <div class="box">
+                            <div class="article-image">
+                                <img src="assets/media/Article1.jpg" alt="Women Jersey">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Alias esse expedita officiis consectetur ea, sunt reiciendis 
+                                eligendi aliquam, accusantium quod quia optio. Numquam odio 
+                                quibusdam quod quo illum. Provident, tempore.
+                            </p>
+                        </div>
+                    </article>
+            
+                    <article>
+                        <div class="box">
+                            <div class="article-image">
+                                <img src="assets/media/Article2.jpg" alt="Women Jersey">
+                            </div>
+                            <p>Juerd posir xoler biy dake consectetur, adipisicing elit. 
+                                Alias esse expedita officiis consectetur ea, sunt reiciendis 
+                                eligendi aliquam, accusantium quod quia optio. Numquam odio 
+                                quibusdam quod quo illum! Tempora coraon diet smidth!
+                            </p>
+                        </div>
+                    </article>
+                        
+                    <article>
+                        <div class="box">
+                            <div class="article-image">
+                                <img src="assets/media/Article3.jpg" alt="Women Jersey">
+                            </div>
+                            <p>Seron yuobu roled lid amet consectetur, adipisicing elit. 
+                                Alias esse expedita officiis consectetur ea, sunt reiciendis 
+                                eligendi aliquam, accusantium quod quia optio. Numquam odio 
+                                quibusdam quod quo illum pellentesque massa!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="clearfix">
+            <div class="container">
+                <small>&copy; Nike, inc.</small>
+                <nav class="footer-links">
+                    <a href="https://twitter.com/Nike" target="_blank">Twitter</a>
+                    <a href="https://www.facebook.com/nike" target="_blank">Facebook</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
