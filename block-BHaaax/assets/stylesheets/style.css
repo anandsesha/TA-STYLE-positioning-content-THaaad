@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Custom Styles */
+
+body {
+	background-color: white;
+    color: black;
+	font-size: 0;
+}
+
+.header {
+	background-color: grey;
+	padding: 50px;	
+}
+
+.header,.first-column,.second-column,.footer {
+	font-size: 24px;
+	margin: 1.5%;
+	border-radius: 8px;
+}
+
+.first-column,.second-column {
+	display: inline-block;
+}
+
+.first-column {
+	width: 44%;	
+}
+
+.second-column {
+	width: 50%;		
+	vertical-align: top;
+	color: black;
+	border: 2px solid black;
+	padding: 10px 10px;
+}
+
+.second-column h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.second-column p {
+	margin: 20px auto;
+	margin-right: 20px;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+.footer {
+	background-color: grey;
+	padding: 50px;
+}
+
+.links {
+	display: inline-block;
+	padding-left: 60%;
+	word-spacing: 40px;
+	font-size: 36px;
+	vertical-align: middle;
+}
+
+.header-links {
+	font-size: 36px;
+	text-decoration: none;
+	color: black;
+}
+
+.brand img{
+	max-width: 10%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.footer-links {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+.footer-links a{
+	max-width: 5%;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.article a {
+	text-decoration: none;
+	color: indigo;
+}
+
+.copyright {
+	display: inline-block;
+}
