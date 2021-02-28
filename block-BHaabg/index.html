@@ -1,0 +1,92 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Positioning Assignment 2 - Gallery Layout</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body id="backtotop">
+        <header class="header">
+            <div class="container clearfix">
+                <a class="brand" href="#">
+                    <img src="assets/media/nike.jpg" alt="header icon">
+                </a>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="article-section">
+                <div class="container clearfix">
+                    <article class="article">   
+                        <div class="column col-1">
+                            <h1 class="heading">Nike Player</h1>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Assumenda iste quae distinctio nobis quidem officia hic, 
+                                consectetur officiis pariatur laudantium harum magnam quod ipsa aliquid. 
+                                Nulla tempore quam unde quidem.consectetur officiis pariatur laudantium harum magnam quod ipsa aliquid. 
+                                Nulla tempore quam unde quidem.
+                            </p>
+                        </div>
+                        <div class="column col-2">
+                            <img src="assets/media/article.jpg" alt="Nike Player">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="gallery-section">
+                <h2>Gallery</h2>
+                <div class="container">
+                    <div class="master-col clearfix">
+                        <div class="col">
+                            <img src="assets/media/abdulaziz-mohammed-74Bd5JyAthE-unsplash.jpg" alt="Img-1">
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/andrew-ruiz-m02QgMURGwc-unsplash.jpg" alt="Img-2">
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/docusign-uI-fScjuXnI-unsplash.jpg" alt="Img-2">
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/hudai-gayiran-Lx7TncJ7pks-unsplash.jpg" alt="Img-2">
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/toa-heftiba-TZF0WM46yg4-unsplash.jpg" alt="Img-2">
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/vadim-sadovski-bdeDj8nhvf8-unsplash.jpg" alt="Img-2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="btn-parent clearfix">
+                    <small>&copy; Nike, Inc. 2021</small>
+                    <a class="top-btn" href="#backtotop">top</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
