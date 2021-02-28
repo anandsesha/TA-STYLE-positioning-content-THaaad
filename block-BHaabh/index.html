@@ -1,0 +1,169 @@
+<!-- 
+### Create a page according to the layout shown below
+
+![Positioning Content Exercise 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/positioning-content/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Creating Reusable & Flexible layouts | Practice</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');</style>
+        <script src="https://kit.fontawesome.com/2e5837ff2f.js" crossorigin="anonymous"></script>    
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container clearfix">
+                <h2 class="header-heading">Theory</h2>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">Generic</a>
+                    <a href="#">Elements</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Section-1 -->
+            <section class="section-one">
+                <div class="container clearfix">
+                    <div class="welcome">
+                        <h1 class="welcome-heading">Welcome to Theory</h1>
+                        <h3 class="welcome-description">A free responsive HTML5 website template by TEMPLATED.</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section-2 -->
+            <section class="section-two">
+                <div class="container clearfix">
+                    <div class="column col-1">
+                        <h2 class="section-two-heading">Magna tempus sed amet aquim veresos</h2>
+                        <p class="section-two-para">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ipsam illo rerum, 
+                            tempore aliquam, alias provident laborum 
+                            odio porro animi itaque rem est laboriosam 
+                            quod sint neque, quas architecto fugiat?
+                        </p>
+                        <a class="more-btn" href="#">More</a>
+                    </div>
+                    <div class="column col-2">
+                        <h2 class="section-two-heading">Interdum Lorem Pulivar adispicing viate</h2>
+                        <p class="section-two-para">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ipsam illo rerum, 
+                            tempore aliquam, alias provident laborum 
+                            odio porro animi itaque rem est laboriosam 
+                            quod sint neque, quas architecto fugiat?
+                        </p>
+                        <a class="more-btn" href="#">More</a>
+                    </div>
+                    <div class="column col-3">
+                        <h2 class="section-two-heading">Libero purus magna sepien ullamcorper</h2>
+                        <p class="section-two-para">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ipsam illo rerum, 
+                            tempore aliquam, alias provident laborum 
+                            odio porro animi itaque rem est laboriosam 
+                            quod sint neque, quas architecto fugiat?
+                        </p>
+                        <a class="more-btn" href="#">More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section-3 -->
+            <section class="section-three">
+                <div class="container clearfix">
+                    <div class="welcome">
+                        <h1 class="welcome-heading">Ipsum Feugiat</h1>
+                        <h3 class="welcome-description beneth-intro">Semper suscipt poscher apede</h3>
+                    </div>
+                    <div class="people-section">
+                        <div class="section-image">
+                            <img src="assets/media/pic03.jpg" alt="Pic-1">
+                            <h3 class="section-three-heading">Magna</h3>
+                            <h4 class="section-three-description">Cipdum dolor</h4>
+                        </div>
+
+                        <div class="section-image">
+                            <img src="assets/media/pic04.jpg" alt="Pic-2">
+                            <h3 class="section-three-heading">Magna</h3>
+                            <h4 class="section-three-description">Cipdum dolor</h4>
+                        </div>
+
+                        <div class="section-image">
+                            <img src="assets/media/pic05.jpg" alt="Pic-3">
+                            <h3 class="section-three-heading">Magna</h3>
+                            <h4 class="section-three-description">Cipdum dolor</h4>
+                        </div>
+
+                        <div class="section-image">
+                            <img src="assets/media/pic06.jpg" alt="Pic-4">
+                            <h3 class="section-three-heading">Magna</h3>
+                            <h4 class="section-three-description">Cipdum dolor</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section-4 -->
+            <section class="section-four">
+                <div class="container clearfix">
+                    <div class="welcome">
+                        <h1 class="welcome-heading section-four-intro">Nunc Dignissim</h1>
+                        <h3 class="welcome-description beneth-intro">Ariqui erat volut nam dui</h3>
+                    </div>
+                    <div class="column-couple col-1-1">
+                        <img class="column-couple-image" src="assets/media/pic01.jpg" alt="Mountain">
+                        <h2 class="section-two-heading">Magna tempus sed amet aquim veresos</h2>
+                        <p class="section-two-para">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ipsam illo rerum, 
+                            tempore aliquam, alias provident laborum 
+                            odio porro animi itaque rem est laboriosam 
+                            quod sint neque, quas architecto fugiat?
+                        </p>
+                        <a class="more-btn" href="#">More</a>
+                    </div>
+                    <div class="column-couple col-1-2">
+                        <img class="column-couple-image" src="assets/media/pic02.jpg" alt="Camera">
+                        <h2 class="section-two-heading">Magna tempus sed amet aquim veresos</h2>
+                        <p class="section-two-para">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ipsam illo rerum, 
+                            tempore aliquam, alias provident laborum 
+                            odio porro animi itaque rem est laboriosam 
+                            quod sint neque, quas architecto fugiat?
+                        </p>
+                        <a class="more-btn" href="#">More</a>
+                    </div>
+                </div>
+                <hr>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container clearfix">
+                <small class="copyright">&copy; United Design, TEMPLATED Images Unplash</small>
+                <nav class="footer-nav">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-vimeo-v"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
